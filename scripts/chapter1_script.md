@@ -1,4 +1,4 @@
----
+--- video_exercise_key:dd5cf4caeb
 
 Hello! Welcome to the first video of the Introduction to Machine Learning course. My name is Gilles, I'm a content creator at DataCamp and in this course, me and my collegue Vincent will explain some general concepts about machine learning. After this course, you'll be able to tell what machine learning is and what it isn't, how to solve some basic machine learning problems and how to think critically about your data and your results.
 
