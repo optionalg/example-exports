@@ -13,3 +13,9 @@ attachments :
 *** =projector_key
 2b3adfe2ca2afc28fa11eab2955e4be1
 
+
+--- type:VideoExercise lang:r xp:50 skills:1 key:07545084ec
+## Introduction
+
+*** =projector_key
+cd230e1e79cb6f2b8f6d98892633810a
