@@ -1,1 +1,124 @@
-{}
+{
+  "slides/chapter_1_introduction.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.008087113084032007,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.016878798090601096,
+      "state": {
+        "indexh": 1,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.03805517853677796,
+      "state": {
+        "indexh": 1,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.0677680226665225,
+      "state": {
+        "indexh": 1,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.11434680887845332,
+      "state": {
+        "indexh": 2,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.1463790100469496,
+      "state": {
+        "indexh": 2,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.1899736525297443,
+      "state": {
+        "indexh": 2,
+        "indexf": 1
+      }
+    },
+    {
+      "timing": 0.21935305951702228,
+      "state": {
+        "indexh": 2,
+        "indexf": 2
+      }
+    },
+    {
+      "timing": 0.24343806250794076,
+      "state": {
+        "indexh": 2,
+        "indexf": 3
+      }
+    },
+    {
+      "timing": 0.308457814586031,
+      "state": {
+        "indexh": 3
+      }
+    },
+    {
+      "timing": 0.3537539818334178,
+      "state": {
+        "indexh": 4
+      }
+    },
+    {
+      "timing": 0.41461401533101044,
+      "state": {
+        "indexh": 5
+      }
+    },
+    {
+      "timing": 0.4876690662020906,
+      "state": {
+        "indexh": 6
+      }
+    },
+    {
+      "timing": 0.5728036581881534,
+      "state": {
+        "indexh": 7,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0.7574726477351919,
+      "state": {
+        "indexh": 7,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0.8043953944250871,
+      "state": {
+        "indexh": 8
+      }
+    },
+    {
+      "timing": 0.9739073229195726,
+      "state": {
+        "indexh": 9
+      }
+    }
+  ]
+}
