@@ -12,18 +12,12 @@ transformations:
 --- type:TitleSlide key:d95e80ee26
 ## Welcome to the course
 
-
 *** =lower_third
 name: Deepayan Sarkar
 title: Associate Professor, Indian Statistical Institute
 
-
-
 *** =script
-
 Welcome to the course
-
-
 
 --- type:FullSlide key:88c2071d19
 ## Data visualization
@@ -37,9 +31,9 @@ Welcome to the course
 
 *** =script
 
-Data visualization is an essential tool for any data analyst. 
+Data visualization is an essential tool for any data analyst.
 
-It's important for exploratory data analysis, where you try to find and understand patterns in your data as quickly as possible. 
+It's important for exploratory data analysis, where you try to find and understand patterns in your data as quickly as possible.
 
 It's also important when presenting or reporting your results, but in that case, clarity and ease of customization are more important than speed.
 
@@ -71,9 +65,9 @@ Number of packages depending on these (March 2017): {{4}}
 
 There are many R packages for data visualization, but most of them are based on one of three graphics frameworks.
 
-The first one is base R graphics, which has been available in R from the beginning, and provides a rich collection of tools. However, it's not very flexible. 
+The first one is base R graphics, which has been available in R from the beginning, and provides a rich collection of tools. However, it's not very flexible.
 
-Lattice graphics is in some ways a successor to base graphics, and tries to address many of its shortcomings. 
+Lattice graphics is in some ways a successor to base graphics, and tries to address many of its shortcomings.
 
 The third and newest framework is based on the `ggplot2` package.
 
@@ -81,7 +75,7 @@ The third and newest framework is based on the `ggplot2` package.
 
 All these frameworks are complete by themselves, but they are also important because of the large eco-system of packages built around them.
 
-In this course, you'll learn to use lattice graphics, for both exploration and presentation. 
+In this course, you'll learn to use lattice graphics, for both exploration and presentation.
 
 --- type:FullSlide key:22ce55bc0f
 ## The `USCancerRates` dataset
@@ -99,7 +93,7 @@ In this course, you'll learn to use lattice graphics, for both exploration and p
 
 *** =script
 
-In the first couple of chapters, you'll use a dataset that records death-rates due to cancer, at the US county level, separately for males and females. 
+In the first couple of chapters, you'll use a dataset that records death-rates due to cancer, at the US county level, separately for males and females.
 
 --- type:FullSlide key:7bfe6ac8c8
 ## The `USCancerRates` dataset
@@ -127,7 +121,7 @@ In the first couple of chapters, you'll use a dataset that records death-rates d
 
 *** =script
 
-The main variable of interest is the annual rate of death due to cancer. State is also available as a covariate. 
+The main variable of interest is the annual rate of death due to cancer. State is also available as a covariate.
 
 Your goal will be to explore how the _distribution_ of death-rate varies with gender and location.
 
@@ -144,9 +138,9 @@ Your goal will be to explore how the _distribution_ of death-rate varies with ge
 
 *** =script
 
-Here is a familiar plot: the histogram. 
+Here is a familiar plot: the histogram.
 
-Histograms show the distribution of a continuous variable, which in this case is the death-rate among males. 
+Histograms show the distribution of a continuous variable, which in this case is the death-rate among males.
 
 This histogram is not particularly exciting; later we'll improve on it.
 
@@ -166,11 +160,11 @@ This histogram is not particularly exciting; later we'll improve on it.
 
 *** =script
 
-Here's another familiar visualization: a scatter plot. 
+Here's another familiar visualization: a scatter plot.
 
-This one shows the death-rates among females versus males, where each circle represents the rates corresponding to one county. 
+This one shows the death-rates among females versus males, where each circle represents the rates corresponding to one county.
 
-The plot suggests that the rates are correlated, and that there are some possible outliers, but otherwise it's not remarkable. 
+The plot suggests that the rates are correlated, and that there are some possible outliers, but otherwise it's not remarkable.
 
 --- type:FullSlide key:01751028d6
 ## The formula
@@ -202,17 +196,17 @@ These two plots are produced by the lattice functions histogram() and xyplot().
 
 They are similar to base R graphics functions hist() and plot() respectively, but one important difference is in how the variables in the plot are specified.
 
-The lattice functions take a formula and a data frame as inputs. 
+The lattice functions take a formula and a data frame as inputs.
 
-The left hand side of the formula names variables on the y axis, and the right-hand side names variables on the x axis. 
+The left hand side of the formula names variables on the y axis, and the right-hand side names variables on the x axis.
 
 A histogram does not need the y axis to be specified, so the left hand side remains blank in that case.
 
 [NextOverlay]
 
-The main advantage of the formula interface is that it lets you compactly describe the plot without making all the variables in the dataset visible in the workspace. 
+The main advantage of the formula interface is that it lets you compactly describe the plot without making all the variables in the dataset visible in the workspace.
 
-This is similar to modeling functions such as `lm()`, like in this call to fit a linear regression model with `rate.female` as response and `rate.male` as predictor. 
+This is similar to modeling functions such as `lm()`, like in this call to fit a linear regression model with `rate.female` as response and `rate.male` as predictor.
 
 --- type:FullSlide key:73cf187762
 ## A version for presentation
@@ -229,7 +223,7 @@ The plots you just saw are very minimal. Such minimal plots are usually sufficie
 
 For example, here's a more elaborate version of the previous scatter plot. It has more descriptive labels, a reference grid, and a reference line along the "y equals x" diagonal.
 
-This makes one point very clear that was hard to see in the earlier scatter plot. 
+This makes one point very clear that was hard to see in the earlier scatter plot.
 
 In absolute terms, the death-rate in females is substantially lower than in males, for almost all counties.
 
