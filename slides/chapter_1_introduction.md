@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Projector Video
 key: cd230e1e79cb6f2b8f6d98892633810a
 video_link:
     hls: https://videos.datacamp.com/transcoded/3094_lattice/v3/hls-ch1_1.master.m3u8
